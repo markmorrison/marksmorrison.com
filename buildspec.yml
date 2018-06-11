@@ -11,8 +11,4 @@ phases:
       - npm run build
 artifacts:
   files:
-    - static/*
-    - asset-manifest.json
-    - index.html
-    - manifest.json
-    - service-worker.js
+    - build/*
