@@ -11,5 +11,4 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync --delete --exclude assets/* build/ "s3://markmorrison-personal"
-      - aws s3 sync --delete --cache-control "max-age=31536000" build/ "s3://markmorrison-personal/"
+      - aws s3 sync build/ s3://markmorrison-personal
