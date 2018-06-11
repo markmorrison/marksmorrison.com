@@ -1,0 +1,22 @@
+.jobCard {
+  padding: 0 0 5rem; }
+  .jobCard .quote {
+    padding: 0 0 0 2rem;
+    margin: 0 0 4rem;
+    border-left: 2px solid #ccc; }
+    .jobCard .quote p {
+      font-size: 2rem; }
+  .jobCard h4 span {
+    float: right;
+    font-size: 2rem;
+    margin: 0.2em 0 0;
+    color: #444;
+    font-weight: 900; }
+  .jobCard .quote__name {
+    color: #656565; }
+    .jobCard .quote__name em {
+      color: #62B1A0; }
+  @media screen and (max-width: 640px) {
+    .jobCard h4 span {
+      float: none;
+      display: block; } }

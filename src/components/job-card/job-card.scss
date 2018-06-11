@@ -1,0 +1,36 @@
+.jobCard {
+  padding: 0 0 5rem;
+  .quote {
+    padding: 0 0 0 2rem;
+    margin: 0 0 4rem;
+    border-left: 2px solid #ccc;
+
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  h4 span {
+    float: right;
+    font-size: 2rem;
+    margin: 0.2em 0 0;
+    color: #444;
+    font-weight: 900;
+  }
+
+  .quote__name {
+    color: #656565;
+
+    em {
+      color: #62B1A0;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    & h4 span {
+      float: none;
+      display: block;
+    }
+  }
+
+}
